@@ -4,23 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Business Blog Card - Andrea Bellver</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <main>
-        <div class="image">
-            <img src="./img/hero-image-business-card.png" alt="Two co-workers sitting on a table in front of a computer.">
-            <img src="./img/white-overlay.svg" alt="" class="absolute">
+    <main class="rounded-3">
+        <div class="image rounded-top-3 position-relative">
+            <img class="rounded-top-3 mw-100" src="./img/hero-image-business-card.png" alt="Two co-workers sitting on a table in front of a computer.">
+            <img src="./img/white-overlay.svg" alt="" class=" position-absolute bottom-0 start-0 w-100">
+            <img src="./img/white-overlay.svg" alt="" class="position-absolute bottom-0 start-0 w-100">
         </div>
-        <div class="text">
-            <h1>Perfect solution for small business</h1>
-            <p>Small businesses need to generate leads to grow. You can use tools like Ringy.</p>
+        <div class="text lh-base rounded-bottom-3 p-4 gap-3 d-flex flex-column">
+            <h1 class="fw-500 fs-4">Perfect solution for small business</h1>
+            <p class="fw-400 pb-2">Small businesses need to generate leads to grow. You can use tools like Ringy.</p>
 
-            <figure>
-                <img src="./img/avatar-image-business-card.png" alt="">
-                <address>
-                    <h2>Amy Burgess</h2>
-                    <p>Customer Manger, Solution Oy</p>
+            <figure class="d-flex align-items-center gap-3 rounded-bottom-3">
+                <img class="rounded-circle" src="./img/avatar-image-business-card.png" alt="">
+                <address class="m-0 fw-400 fst-normal">
+                    <h2 class="fw-500 fs-6">Amy Burgess</h2>
+                    <p class="m-0">Customer Manger, Solution Oy</p>
                 </address>
             </figure>
         </div>
