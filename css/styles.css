@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Basic configuration */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 12px 12px 0 0;
+}
+
+h1, h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #111729;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+p, address {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #677489;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #F2F5F9;
+}
+
+/* Main */
+main {
+    max-width: 25rem;
+    background-color: #FFF;
+    border-radius: 12px;
+}
+
+    /* Image element */
+
+.image {
+    position: relative;
+    border-radius: 12px 12px 0 0;
+}
+
+.absolute {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+    /* Text element */
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0 2rem 1.75rem 2rem;
+    line-height: 1.5;
+}
+
+.text > p {
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #F2F5F9;
+}
+
+    /* Figure element */
+
+figure {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+figure > img { 
+    width: 2.5rem;
+    border-radius: 50%;
+}
+
+figure p{
+    font-size: 0.8rem;
+}
